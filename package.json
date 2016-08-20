@@ -1,0 +1,35 @@
+{
+  "name": "tt-stock-api",
+  "version": "1.0.0",
+  "description": "Under development currently. Do not use in production.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.development.config.js",
+    "start": "npm run build && node public/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trip-Trax/tt-stock-api.git"
+  },
+  "author": "Genert Org <orggenert@gmail.com> (http://thedeveloper.xyz/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Trip-Trax/tt-stock-api/issues"
+  },
+  "homepage": "https://github.com/Trip-Trax/tt-stock-api#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.13.0",
+    "hapi": "^14.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.2",
+    "webpack-node-externals": "^1.3.3"
+  }
+}
